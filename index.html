@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Sin Miedo</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/sinmiedologo .png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <!-- Start your project here-->
+
+    <style>
+      .nav-link {
+        color: white;
+      }
+      .navbar {
+        z-index: 100;
+        margin-top: -10px;
+      }
+      #carouselBasicExample,
+      .carousel-inner,
+      .carousel-item,
+      .carousel-item.activev {
+        height: 100vh;
+      }
+      .carousel-item:nth-child(1) {
+        background-image: url("https://images.clickfunnels.com/53/f178cbd2ba4725972849af0aacd72f/IMG_7521-3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+      .carousel-item:nth-child(2) {
+        background-image: url("https://images.clickfunnels.com/1c/979c742ad4491baafb78ae63b598d1/IMG_7338-3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+      .carousel-item:nth-child(3) {
+        background-image: url("https://images.clickfunnels.com/62/80214ab3dd454db12e424e8ccd18a6/IMG_7432.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+      #carouselBasicExample {
+        margin-top: -66.6px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="mb-5">
+      <!-- Navbar -->
+      <nav class="navbar fixed-top navbar-expand-lg">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler text-white"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Navbar brand -->
+            <a class="navbar-brand ms-md" href="#">
+              <img
+                src="https://images.clickfunnels.com/53/f65e2685784e8792e013c7d93d307a/smlogo.png"
+                height="80"
+                width="80"
+                alt="SinMiedo Logo"
+                loading="lazy"
+              />
+            </a>
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pistas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Fotos</a>
+              </li>
+            </ul>
+            <!-- Left links -->
+          </div>
+          <!-- Collapsible wrapper -->
+
+          <!-- Right elements -->
+          <div class="d-flex align-items-center">
+            <!-- Icon -->
+
+            <!--  Cart Icon removed
+            <a class="text-white me-3" href="#">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+            -->
+
+            <!-- Notifications -->
+            <a
+              class="text-white me-3 dropdown-toggle hidden-arrow"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fas fa-bell"></i>
+              <span class="badge rounded-pill badge-notification bg-danger"
+                >1</span
+              >
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <li>
+                <a class="dropdown-item" href="#">Some news</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Another news</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+
+            <!-- Avatar -->
+            <a
+              class="dropdown-toggle d-flex align-items-center hidden-arrow"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="https://images.clickfunnels.com/d9/60f53b766b4656a18f426882eb1c63/sinmiedologo-.png"
+                class="rounded-circle"
+                height="65"
+                alt="Sin miedo skull logo"
+                loading="lazy"
+              />
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <li>
+                <a class="dropdown-item" href="#">Text 0</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Text 1</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Text 2</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Right elements -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+      <!-- Carousel wrapper -->
+      <div
+        id="carouselBasicExample"
+        class="carousel slide carousel-fade shadow-5-strong"
+        data-mdb-ride="carousel"
+      >
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-mdb-target="#carouselBasicExample"
+            data-mdb-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-mdb-target="#carouselBasicExample"
+            data-mdb-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-mdb-target="#carouselBasicExample"
+            data-mdb-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <!-- Inner -->
+        <div class="carousel-inner">
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.3)">
+              <div
+                class="d-flex justify-content-center align-items-center h-100"
+              >
+                <div class="text-center text-white">
+                  <h1 class="mb-4">Sin Miedo</h1>
+                  <h2 class="mb-4">2022</h2>
+                  <button
+                    type="button"
+                    class="btn btn-outline-light btn-lg"
+                    data-mdb-ripple-color="light"
+                  >
+                    Jump here
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.3)">
+              <div
+                class="d-flex justify-content-center align-items-center h-100"
+              >
+                <div class="text-center text-white">
+                  <h1 class="mb-4">Sin Miedo</h1>
+                  <h2 class="mb-4">2022</h2>
+                  <button
+                    type="button"
+                    class="btn btn-outline-light btn-lg"
+                    data-mdb-ripple-color="light"
+                  >
+                    Jump here
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.3)">
+              <div
+                class="d-flex justify-content-center align-items-center h-100"
+              >
+                <div class="text-center text-white">
+                  <h1 class="mb-4">Sin Miedo</h1>
+                  <h2 class="mb-4">2022</h2>
+                  <button
+                    type="button"
+                    class="btn btn-outline-light btn-lg"
+                    data-mdb-ripple-color="light"
+                  >
+                    Jump here
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Inner -->
+
+        <!-- Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel wrapper -->
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div
+              class="bg-image hover-overlay ripple shadow-3-strong rounded-7"
+              data-mdb-ripple-color="light"
+            >
+              <img
+                src="https://images.clickfunnels.com/eb/545d7e249a4a8e8d8cd7104bb06733/IMG_7420-3.jpg"
+                class="w-100"
+                alt="enana jumping"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.3)"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Cupiditate facilis impedit pariatur sed sunt quae et tenetur
+              voluptatum perspiciatis architecto dolore, aliquam ea ullam ad!
+              Id, cum. Dolor, vitae iste?
+            </p>
+            <p>
+              <strong
+                >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Doloremque, ipsam!</strong
+              >
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              laborum porro quaerat dolore voluptate, accusamus distinctio
+              inventore, consequatur nulla dignissimos, nihil magnam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div style="height: 2000px"></div>
+
+    <!-- End your project here-->
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
